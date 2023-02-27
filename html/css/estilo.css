@@ -1,0 +1,88 @@
+h1 {
+    background-color: #7C6C77;
+}
+.Logo {
+    width: 150px
+}
+.colorFondo{
+    background-color:#AAA694 ;
+    
+
+}
+
+ 
+h1{
+    text-align:center ;
+    padding-bottom: 60px;
+    text-decoration: underline;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+ul li a {
+     text-decoration: none;
+     color: black;
+     text-transform: uppercase;
+     font-weight:bold;
+     margin: 30px;
+
+}
+header{
+    border: 2px solid black;
+}
+main{
+    background-color: #7C6C77;
+}
+.botonEcommerce {
+    background-color:#D1D0A3 ;
+}
+
+.botonEcommerce:hover {
+    background-color:#EBF8B8;
+}
+.anuncioFriday img {
+    text-align: center;
+}
+.imgProductos {
+    height: 600px;
+    width: 600px;
+    object-fit: cover;
+}
+main{
+    text-align: center;
+}
+main p{
+    margin: 10px 70px;
+}
+main img{
+    margin-top: 30px;
+}
+.piePagina {
+    background-color: #7C6C77;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: black 2px solid;
+
+}
+.piePagina li{
+    margin: 30px;
+
+}
+.contenedorProductos img {
+    width: 300px;
+    margin-top: 10px;
+
+}
+main inframe{
+    margin: 50px;
+
+}
