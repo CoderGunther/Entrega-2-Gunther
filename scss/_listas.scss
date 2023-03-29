@@ -1,0 +1,27 @@
+@mixin anclas {
+    text-decoration: none;
+            color: $color_1;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin: 30px;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    li {
+        list-style-type: none;
+        display: inline-block;
+
+        a {
+            @include anclas;
+        }
+    }
+}
+
+
+.list {
+    list-style-type: lower-latin;
+    list-style-position: inside;
+}

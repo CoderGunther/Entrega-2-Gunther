@@ -1,0 +1,8 @@
+.anuncioFriday {
+	max-width: 100%;
+	height: auto;
+	transition: all 1s;
+	&:hover {
+		transform: scale(1.1);
+	}
+}

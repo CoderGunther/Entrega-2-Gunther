@@ -1,0 +1,12 @@
+.piePagina {
+	background-color: $background-color_1;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: black 2px solid;
+	li {
+		margin: 30px;
+	}
+}

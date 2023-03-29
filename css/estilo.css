@@ -16,6 +16,12 @@ h1{
     padding-bottom: 60px;
     text-decoration: underline;
 }
+h2{
+    transition: all 1s;
+}
+h2:hover{
+    transform: scale(1.1);
+}
 ul{
     display: flex;
     justify-content: space-between;
@@ -31,8 +37,19 @@ ul li a {
      text-transform: uppercase;
      font-weight:bold;
      margin: 30px;
-
 }
+.list{
+    list-style-type:lower-latin ;
+    list-style-position: inside;
+}
+h3{
+    transition: all 1s;
+}
+h3:hover{
+    transform: scale(1.1);
+}
+
+
 header{
     border: 2px solid black;
 }
@@ -46,13 +63,25 @@ main{
 .botonEcommerce:hover {
     background-color:#EBF8B8;
 }
-.anuncioFriday img {
-    text-align: center;
+.anuncioFriday {
+    max-width: 100%;
+    height: auto;
+    transition: all 1s;
 }
+.anuncioFriday:hover {
+    transform: scale(1.1);
+}
+
 .imgProductos {
-    height: 600px;
-    width: 600px;
-    object-fit: cover;
+    height: 500px;
+    width:  50%;
+    object-fit: center;
+}
+.card-img-top{
+    transition: all 1s;
+}
+.card-img-top:hover{
+    transform: scale(1.1);
 }
 main{
     text-align: center;
@@ -62,6 +91,20 @@ main p{
 }
 main img{
     margin-top: 30px;
+}
+.video-responsive {
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	padding-top: 30px; 
+	position: relative;
+}
+.video-responsive iframe {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
 }
 .piePagina {
     background-color: #7C6C77;
